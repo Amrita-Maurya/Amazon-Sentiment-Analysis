@@ -1,0 +1,22 @@
+
+# Exclude large dataset files
+data/*.ft.txt
+
+# Exclude large model binaries (if > 100MB each)
+models/*.bin
+# --- General Python/Notebook Files ---
+
+# Byte-compiled Python files
+__pycache__/
+*.pyc
+
+# Virtual Environment Folders (Keep your dependencies list in requirements.txt instead)
+venv/
+env/
+
+# Jupyter/Colab/Kaggle Checkpoints
+.ipynb_checkpoints
+
+# Miscellaneous files created by OS or text editors
+.DS_Store
+*~

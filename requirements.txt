@@ -1,0 +1,15 @@
+# Core Data Handling
+pandas
+numpy
+
+# Machine Learning & Feature Engineering
+scikit-learn  # Contains Logistic Regression, MNB, and TfidfVectorizer
+joblib        # Used to save and load the model pipeline
+
+# Benchmark Model
+fasttext      # For training and loading the fastText benchmark
+
+# Deployment and Web App
+streamlit     # The framework for your interactive demo
+pyngrok       # Used to create the public URL tunnel (though often excluded 
+              # if deploying directly to Streamlit Cloud, but necessary for Colab/Kaggle setup)
