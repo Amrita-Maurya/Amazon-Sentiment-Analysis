@@ -66,8 +66,8 @@ To run the live Streamlit demo:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/WISE-AIML-2025-Amazon-Sentiment-Analysis.git
-    cd WISE-AIML-2025-Amazon-Sentiment-Analysis
+    git clone https://github.com/Amrita-Maurya/Amazon-Sentiment-Analysis.git
+    cd Amazon-Sentiment-Analysis
     ```
 2.  **Install Dependencies:**
     ```bash
