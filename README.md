@@ -52,10 +52,11 @@ The final Logistic Regression model is saved as a complete pipeline (`.pkl`) and
 
 ```
 WISE-AIML-2025-Amazon-Sentiment-Analysis/
-├── License               # (Contains large files excluded via .gitignore)
+├── License               
 ├── notebooks/
 │   └── Amazon_Sentiment_Capstone.ipynb   # <-- Full EDA, Training, and Analysis
 ├── README.md
+├── .gitignore
 └── requirements.txt
 ```
 
