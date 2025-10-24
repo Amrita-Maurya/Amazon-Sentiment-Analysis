@@ -52,15 +52,10 @@ The final Logistic Regression model is saved as a complete pipeline (`.pkl`) and
 
 ```
 WISE-AIML-2025-Amazon-Sentiment-Analysis/
-├── data/                    # (Contains large files excluded via .gitignore)
-├── models/
-│   ├── amazon_sentiment_lr_pipeline.pkl  # <-- FINAL DEPLOYED MODEL
-│   └── fasttext_model_amzn.bin
+├── License               # (Contains large files excluded via .gitignore)
 ├── notebooks/
 │   └── Amazon_Sentiment_Capstone.ipynb   # <-- Full EDA, Training, and Analysis
-├── src/
-│   └── app.py                      # <-- Streamlit Application Code
-├── .gitignore
+├── README.md
 └── requirements.txt
 ```
 
@@ -86,10 +81,3 @@ To run the live Streamlit demo:
 
 -----
 
-## 4\. Evaluation and Repository Stats
-
-This repository is maintained to demonstrate quality and complete project lifecycle adherence:
-
-  * **Code Walkthrough:** The **`notebooks/Amazon_Sentiment_Capstone.ipynb`** provides a sequential, documented, and runnable record of all steps from EDA to final evaluation.
-  * **Git Repository Stats (Commits):** The commit history tracks progress clearly across all phases: `INIT` $\rightarrow$ `EDA` $\rightarrow$ `MODEL` $\rightarrow$ `DEPLOY`.
-  * **Code Quality:** The pipeline architecture ensures a clean separation of concerns and robust code structure.
